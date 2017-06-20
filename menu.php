@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-1" >
           <ul class="nav navbar-nav navbar-right" id="brand">
             <li>
-              <a class="btn btn-default btn-outline btn-circle"  data-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="nav-collapse1" id="button">Найти работу</a>
+              <a class="btn btn-outline btn-circle"  data-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="nav-collapse1" id="button">Найти работу</a>
             </li>
             <ul class="collapse nav navbar-nav nav-collapse" id="collapse1">
             <li><a href="#" id="button2">IT</a></li>
