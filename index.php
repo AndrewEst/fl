@@ -8,9 +8,9 @@
 <body>
  <?php require_once "menu.php" ?>
    <div class="index">
-       <h1 ><center>Добро пожаловать на сайт</center></h1>
-       <h1><center>Тут бодет вся информация о сайте, картинки</center></h1>
-       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+       <h2 ><center>Добро пожаловать на сайт</center></h2>
+       <p><center>Тут бодет вся информация о сайте, картинки</center></p>
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
    </div>
 </body>
 </html>

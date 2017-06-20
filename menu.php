@@ -1,6 +1,6 @@
 <div class="container-fluid" id="menu1">
     <!-- Second navbar for categories -->
-    <nav class="navbar navbar-default" id="menu">
+    <nav class="navbar navbar-fixed-top" id="menu">
      
       <div class="container" id="brand">
        
