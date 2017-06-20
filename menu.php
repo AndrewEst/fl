@@ -9,9 +9,9 @@
          
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" >
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar" id="button3"></span>
+            <span class="icon-bar" id="button3"></span>
+            <span class="icon-bar" id="button3"></span>
           </button>
           <a class="navbar-brand" href="#" id="brand">FreeLance</a>
         </div>
