@@ -33,7 +33,8 @@
             <li><a href="#" id="button">Поиск</a></li>
             
             <li class="dropdown" id="log">
-            <a class="dropdown-toggle"  data-toggle="dropdown" id="button"> Войти</a>
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="button"> Войти</a>
+                
 				<div class="dropdown-menu" id="log2">
 				<center>
 				<form class="form-vertical"  method="post" accept-charset="UTF-8" >
