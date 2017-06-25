@@ -13,7 +13,7 @@
             <span class="icon-bar" id="button3"></span>
             <span class="icon-bar" id="button3"></span>
           </button>
-          <a class="navbar-brand" href="#" id="brand">FreeLance</a>
+          <a class="navbar-brand" href="../index.php" id="brand">FreeLance</a>
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,8 +33,7 @@
             <li><a href="#" id="button">Поиск</a></li>
             
             <li class="dropdown" id="log">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="button"> Войти</a>
-                
+            <a class="dropdown-toggle"  data-toggle="dropdown" id="button"> Войти</a>
 				<div class="dropdown-menu" id="log2">
 				<center>
 				<form class="form-vertical"  method="post" accept-charset="UTF-8" >
@@ -48,7 +47,7 @@
 			</li>   
                                                                 
                                                 
-            <li><a href="#" id="button">Регистрация</a></li>
+            <li><a href="../pages/registration.php" id="button">Регистрация</a></li>
             
           </ul>
           
