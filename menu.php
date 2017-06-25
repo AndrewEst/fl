@@ -31,32 +31,22 @@
           </ul>
             <li><a href="#" id="button">Предложить работу</a></li>
             <li><a href="#" id="button">Поиск</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle"  data-toggle="dropdown" id="button">Войти<span class="caret"></span></a>
-                    <ul id="login" class="dropdown-menu" >
-                        <li>
-                            <div class="row" >
-                                <div class="col-xs-12" >
-                                     <form class="form" method="post"  action="scripts/login.php" accept-charset="UTF-8" >
-                                         <div class="form-group" >
-                                             <label class="sr-only" for="text" >Логин</label>
-                                             <input type="text"  class="form-control" name="login" id="loginText" placeholder="Логин" required>
-                                        </div>
-                                        <div class="form-group" >
-                                             <label class="sr-only" for="exampleInputPassword2">Пароль</label>
-                                             <input type="text" class="form-control" id="loginText" name="pass" id="exampleInputPassword2" placeholder="Пароль" required>
-                                             <div class="help-block text-center" >
-                                                 <a href="#">забыл пароль?</a>
-                                             </div>
-                                        </div>
-                                        <div class="form-group">
-                                             <center><button type="submit" id="buttonLogin" class="btn btn-primary btn-block">Войти</button></center>
-                                        </div>
-                                    </form>
-                                </div>
-                             </div>
-                        </li>
-                    </ul>
+            
+            <li class="dropdown" id="log">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="button"> Войти</a>
+                
+				<div class="dropdown-menu" id="log2">
+				<center>
+				<form class="form-vertical"  method="post" accept-charset="UTF-8" >
+				  <input  class="form-control login" type="text" name="sp_uname" placeholder="Логин"  id="loginText"/>
+				  <input  class="form-control login" type="password" name="sp_pass" placeholder="Пароль" id="loginText"/>
+				  <input class="btn btn-primary" type="submit" name="submit" value="Войти" id="buttonLogin"/>
+				</form>
+				</center>
+				</div>
+				   
+			</li>   
+                                                                
                                                 
             <li><a href="#" id="button">Регистрация</a></li>
             
