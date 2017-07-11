@@ -31,27 +31,52 @@
           </ul>
             <li><a href="#" id="button">Предложить работу</a></li>
             <li><a href="#" id="button">Поиск</a></li>
+            <?php
+                if ((empty($_COOKIE["id"]) or empty($_COOKIE["pass"]))){
+            ?>
             
             <li class="dropdown" id="log">
             <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="button"> Войти</a>
                 
 				<div class="dropdown-menu" id="log2">
 				<center>
-				<form class="form-vertical"  method="post" accept-charset="UTF-8" >
-				  <input  class="form-control login" type="text" name="sp_uname" placeholder="Логин"  id="loginText"/>
-				  <input  class="form-control login" type="password" name="sp_pass" placeholder="Пароль" id="loginText"/>
+				<form class="form-vertical"  method="post" action="../scripts/login.php" accept-charset="UTF-8" >
+				  <input  class="form-control login" type="text" name="uname" placeholder="Логин"  id="loginText"/>
+				  <input  class="form-control login" type="password" name="upass" placeholder="Пароль" id="loginText"/>
 				  <input class="btn btn-primary" type="submit" name="submit" value="Войти" id="buttonLogin"/>
 				</form>
 				</center>
-				</div>
-				   
+				</div>   
 			</li>   
                                                                 
                                                 
             <li><a href="../pages/registration.php" id="button">Регистрация</a></li>
+            <?php 
+                }   
+                else{
+            ?>
+            <ul class="nav navbar-nav navbar-right">
+             <li class="dropdown" id="log">
+                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="button">Личный кабинет</a>
+                <div class="dropdown-menu" id="log2">
+                    <center>
+                        <li><a href="../pages/mypage.php?id=<?=$_COOKIE["id"]?>">Личная информация</a></li>
+                        <li><a href="../pages/msg.php?id=<?=$_COOKIE["id"]?>">Сообщения</a></li>
+                        <li><a href="../pages/myoffers.php?id=<?=$_COOKIE["id"]?>">Мои объявления</a></li>
+                        <form action="finishcookie.php" method="post"><input type='submit' name='exit' value='Выйти'/></form>
+                    </center>
+                </div>
+            </li> 
+            
+            <li class="nav navbar-nav navbar-right">
+                <img class="img-circle" src="https://www.kv.by/sites/default/files/6gjpihg2sx8.jpg" width="50px">
+            </li>  
+              </ul>
+            <?php 
+                 }
+            ?>
             
           </ul>
-          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
